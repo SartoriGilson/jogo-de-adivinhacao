@@ -24,7 +24,7 @@ function mensagemInicial() {
 mensagemInicial();
 
 let listaSorteados = [];
-let maxList = 10
+let maxList = 100
 
 function numberAleatorio() {
     let numeroEscolhido = parseInt(Math.random() * maxList + 1); // gera um numero aleatorio e armazena na variavel.
